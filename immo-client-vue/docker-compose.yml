@@ -1,0 +1,11 @@
+services:
+  immo-client-vue:
+    image: node:25
+    ports:
+      - "${VITE_PORT:-3000}:3000"
+    volumes:
+      - .:/app
+    working_dir: /app
+    env_file:
+      - ./.env
+    command: npm run dev
