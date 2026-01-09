@@ -2,7 +2,7 @@ services:
   immo-admin-react:
     image: node:25
     ports:
-      - "3001:3000"
+      - "${VITE_PORT:-3001}:3000"
     working_dir: /app
     volumes:
       - ./:/app
