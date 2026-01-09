@@ -62,16 +62,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.369.5",
+            "version": "3.369.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "7cb482768899d510e8bcb3e9ef685d2ed0afcbfe"
+                "reference": "cb7c0a255a34d44f13f9276d720827d56a3b381b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/7cb482768899d510e8bcb3e9ef685d2ed0afcbfe",
-                "reference": "7cb482768899d510e8bcb3e9ef685d2ed0afcbfe",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/cb7c0a255a34d44f13f9276d720827d56a3b381b",
+                "reference": "cb7c0a255a34d44f13f9276d720827d56a3b381b",
                 "shasum": ""
             },
             "require": {
@@ -153,9 +153,9 @@
             "support": {
                 "forum": "https://github.com/aws/aws-sdk-php/discussions",
                 "issues": "https://github.com/aws/aws-sdk-php/issues",
-                "source": "https://github.com/aws/aws-sdk-php/tree/3.369.5"
+                "source": "https://github.com/aws/aws-sdk-php/tree/3.369.9"
             },
-            "time": "2025-12-30T19:07:16+00:00"
+            "time": "2026-01-07T19:06:56+00:00"
         },
         {
             "name": "brick/math",
@@ -2544,16 +2544,16 @@
         },
         {
             "name": "respect/validation",
-            "version": "2.4.5",
+            "version": "2.4.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Respect/Validation.git",
-                "reference": "93edad4b3272103ea31a5186970c1bd4bdd58b3e"
+                "reference": "79f214c3bc3be17c0f08741516927c4141e79ec2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Respect/Validation/zipball/93edad4b3272103ea31a5186970c1bd4bdd58b3e",
-                "reference": "93edad4b3272103ea31a5186970c1bd4bdd58b3e",
+                "url": "https://api.github.com/repos/Respect/Validation/zipball/79f214c3bc3be17c0f08741516927c4141e79ec2",
+                "reference": "79f214c3bc3be17c0f08741516927c4141e79ec2",
                 "shasum": ""
             },
             "require": {
@@ -2606,9 +2606,9 @@
             ],
             "support": {
                 "issues": "https://github.com/Respect/Validation/issues",
-                "source": "https://github.com/Respect/Validation/tree/2.4.5"
+                "source": "https://github.com/Respect/Validation/tree/2.4.8"
             },
-            "time": "2025-12-30T08:34:28+00:00"
+            "time": "2026-01-06T06:18:25+00:00"
         },
         {
             "name": "slim/psr7",

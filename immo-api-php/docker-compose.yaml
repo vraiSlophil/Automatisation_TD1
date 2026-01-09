@@ -1,0 +1,45 @@
+networks:
+  immo.net:
+     driver : bridge 
+
+services: 
+
+  immo.api:
+    container_name: immo.api
+    build:
+      context: Docker
+      dockerfile: Dockerfile
+    env_file: ./.env
+    ports:
+      - '6080:80'
+    volumes:
+      - ./:/var/php
+    working_dir: /var/php
+    networks:
+      - immo.net
+    depends_on:
+      - immo.db
+    command: sh -c "php -S 0.0.0.0:80 -t /var/php/public"
+     
+    
+  immo.db:
+    image: mysql:latest
+    env_file: ./.env
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_PASSWORD}
+    networks: 
+      - immo.net
+    ports:
+      - 3306:3306
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d/
+
+
+  adminer:
+    image: adminer
+    ports: 
+      - 8080:8080
+    networks:
+      - immo.net
+
+       

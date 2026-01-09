@@ -1,8 +1,28 @@
 # Slim 4 API
 
-Simple API using Slim v4 MySQL 
-## Run
+Simple API Slim v4 MySQL 
 
-- Create `.env` from `.env.exemple`
-- Update environement variable
-- run `php -S localhost:<PORT> -t ./public`
+# Prérequis
+
+Logiciel: Docker Desktop
+
+Avoir un .env à la raçine du projet 
+`cp .env.example .env`
+
+## Lancement
+
+Ajout du dossire vendor avec composer 
+`docker compose -f ./docker-compose.yaml run --rm immo.api composer install`
+
+
+Lancement du container
+`docker compose up`
+
+## API
+
+Port: 6080
+
+ 
+
+
+
