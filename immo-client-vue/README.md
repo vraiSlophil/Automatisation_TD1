@@ -8,8 +8,17 @@
 
 Créer un fichier `.env` à la racine du projet :
 
-VITE_API_URL=http://localhost:8080
-VITE_PORT={PORT} (par exemple 3000)
+### Powershell 
+`Copy-Item .\.env.exemple .env`
+
+### Bash 
+`cp .env.exemple .env`
+
+## Puis modifier le fichier a votre guise
+
+``VITE_API_URL=http://localhost:6080``
+
+``VITE_PORT={PORT} (par exemple 3000)``
 
 ## Lancement du projet
 
