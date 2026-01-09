@@ -7,7 +7,7 @@ Simple API Slim v4 MySQL
 Logiciel: Docker Desktop
 
 Avoir un .env à la raçine du projet 
-`cp .env.example .env`
+`cp .env.exemple .env`
 
 ## Lancement
 

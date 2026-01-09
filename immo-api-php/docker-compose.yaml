@@ -7,7 +7,7 @@ services:
   immo.api:
     container_name: immo.api
     build:
-      context: Docker
+      context: docker/php
       dockerfile: Dockerfile
     env_file: ./.env
     ports:
