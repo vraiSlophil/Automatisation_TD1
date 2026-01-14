@@ -1,8 +1,20 @@
-# React + Vite
+## Marche à suivre pour lancer le projet
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Copier le .env.example en .env et ajuster les variables d'environnement si nécessaire :
+    ```bash
+    cp .env.example .env
+    ```
 
-Currently, two official plugins are available:
+2. Installer les dépendances :
+    ```bash
+    docker compose run --rm immo-admin-react npm ci
+    ```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. Lancer le projet :
+    ```bash
+    docker compose up
+    ```
+
+4. Ouvrir votre navigateur et accéder à l'application à l'adresse suivante :
+    
+    https://localhost:3001
